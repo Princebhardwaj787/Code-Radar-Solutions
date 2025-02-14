@@ -12,11 +12,11 @@ int main() {
 
     // Compare the numbers and print the greatest
     if (num1 > num2) {
-        printf("The greatest number is: %d\n", num1);
+        printf("%d", num1);
     } else if (num2 > num1) {
-        printf("The greatest number is: %d\n", num2);
+        printf("%d", num2);
     } else {
-        printf("Both numbers are equal.\n");
+        printf("Both numbers are equal.");
     }
 
     return 0;
