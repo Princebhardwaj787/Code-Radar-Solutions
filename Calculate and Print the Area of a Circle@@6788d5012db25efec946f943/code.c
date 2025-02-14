@@ -5,6 +5,6 @@ int main(){
     scanf("%f",&r);
     pie = 3.14;
     area = r*pie;
-    print("Area: %f",area);
+    printf("Area: %f",area);
     return 0;
 }
